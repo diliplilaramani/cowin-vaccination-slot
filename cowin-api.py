@@ -8,9 +8,9 @@ from dateutil.relativedelta import relativedelta
 
 port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
-sender_email = "cowin.parsing@gmail.com"
-receiver_email = "dilip.ajm@gmail.com,dilip@instahire.us,ajmerhitesh@gmail.com"
-password = "Qazwsx123#"
+sender_email = "xxxxxxx@gmail.com"
+receiver_email = "xxxxxx"
+password = "xxxxxxxx"
 success_message = """\
 Subject: Cowin Vaccination Slots Available
 
