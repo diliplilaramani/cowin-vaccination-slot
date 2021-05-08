@@ -40,6 +40,8 @@ def send_email(is_success):
         else:
             print('SENDING EMAIL......FAILED')
             server.sendmail(sender_email, 'dilip.ajm@gmail.com', failed_message)
+            import sys
+            sys.exit("ERRORS.......")
 
 
 def get_cowin_data():
